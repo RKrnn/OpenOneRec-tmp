@@ -38,9 +38,6 @@ init_conda() {
 setup_proxy() {
     log_info "Setting up proxy..."
     unset -v http_proxy https_proxy no_proxy
-    export http_proxy=http://oversea-squid2.ko.txyun:11080
-    export https_proxy=http://oversea-squid2.ko.txyun:11080
-    export no_proxy=localhost,127.0.0.1,localaddress,localdomain.com,internal,corp.kuaishou.com,test.gifshow.com,staging.kuaishou.com
 }
 
 # Install on local node
