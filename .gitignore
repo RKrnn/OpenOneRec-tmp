@@ -71,6 +71,8 @@ ckpt/
 # *.csv
 # *.json
 # *.jsonl
+raw_data/
+trace_output/
 
 # Ray
 ray_results/
